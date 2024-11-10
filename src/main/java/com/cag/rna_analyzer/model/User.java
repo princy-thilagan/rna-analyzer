@@ -3,7 +3,7 @@ package com.cag.rna_analyzer.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "User")
+@Table(name = "AppUser")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
